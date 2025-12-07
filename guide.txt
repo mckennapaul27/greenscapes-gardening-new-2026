@@ -1,0 +1,121 @@
+https://www.greenscapes-gardening.co.uk
+
+Address:
+
+19 Vine Street, Hazel Grove, Stockport, SK7 4JS
+
+Email:
+
+simon@greenscapes-gardening.co.uk
+
+Phone:
+
+0161 425 0035
+
+Website:
+
+www.greenscapes-gardening.co.uk
+
+https://www.facebook.com/greenscapesgardeners
+
+Logo:
+
+public/greenscapes-logo.webp
+
+Indexed pages
+
+/
+/services
+/garden-maintenance
+/artificial-lawn-specialists
+/tree-surgeon-bramhall
+/landscaping
+/blog/domestic-garden-maintenance-wilmslow
+/blog/how-to-deadhead-an-astilbe
+/blog/winter-garden-maintenance
+/blog
+/blog/garden-maintenance-service-wilmslow
+
+Areas covered 
+Bramhall
+Alderley Edge
+Poynton
+Hazel Grove
+Handforth
+Prestbury
++ surrounding areas
+
+
+primary colour
+#339935
+
+Other background colours
+#fffcf4
+#f9f9f9;
+
+background-color: #fffcf4;
+
+Footer background
+background-image: url("data:image/svg+xml,%3Csvg width='120' height='120' viewBox='0 0 120 120' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9 0h2v20H9V0zm25.134.84l1.732 1-10 17.32-1.732-1 10-17.32zm-20 20l1.732 1-10 17.32-1.732-1 10-17.32zM58.16 4.134l1 1.732-17.32 10-1-1.732 17.32-10zm-40 40l1 1.732-17.32 10-1-1.732 17.32-10zM80 9v2H60V9h20zM20 69v2H0v-2h20zm79.32-55l-1 1.732-17.32-10L82 4l17.32 10zm-80 80l-1 1.732-17.32-10L2 84l17.32 10zm96.546-75.84l-1.732 1-10-17.32 1.732-1 10 17.32zm-100 100l-1.732 1-10-17.32 1.732-1 10 17.32zM38.16 24.134l1 1.732-17.32 10-1-1.732 17.32-10zM60 29v2H40v-2h20zm19.32 5l-1 1.732-17.32-10L62 24l17.32 10zm16.546 4.16l-1.732 1-10-17.32 1.732-1 10 17.32zM111 40h-2V20h2v20zm3.134.84l1.732 1-10 17.32-1.732-1 10-17.32zM40 49v2H20v-2h20zm19.32 5l-1 1.732-17.32-10L42 44l17.32 10zm16.546 4.16l-1.732 1-10-17.32 1.732-1 10 17.32zM91 60h-2V40h2v20zm3.134.84l1.732 1-10 17.32-1.732-1 10-17.32zm24.026 3.294l1 1.732-17.32 10-1-1.732 17.32-10zM39.32 74l-1 1.732-17.32-10L22 64l17.32 10zm16.546 4.16l-1.732 1-10-17.32 1.732-1 10 17.32zM71 80h-2V60h2v20zm3.134.84l1.732 1-10 17.32-1.732-1 10-17.32zm24.026 3.294l1 1.732-17.32 10-1-1.732 17.32-10zM120 89v2h-20v-2h20zm-84.134 9.16l-1.732 1-10-17.32 1.732-1 10 17.32zM51 100h-2V80h2v20zm3.134.84l1.732 1-10 17.32-1.732-1 10-17.32zm24.026 3.294l1 1.732-17.32 10-1-1.732 17.32-10zM100 109v2H80v-2h20zm19.32 5l-1 1.732-17.32-10 1-1.732 17.32 10zM31 120h-2v-20h2v20z' fill='%23f7edd4' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+
+Font
+Montserrat
+
+Testimonials
+
+Reliable, considerate and knowledgeable, Simon and his team always know what to do in the garden and when. Thanks for all your help and advice.
+
+Sylvia
+Pott Shrigley
+
+Greenscapes regularly cuts almost an acre of undulating lawn and trims a mature laylandii hedge for us. They are very trustworthy, efficient and tidy.
+
+Erica
+Marple
+
+We have used Simon for the last 12 months and he has transformed the look of our garden. He is totally reliable, always tidy ,knowledgable and has a well structure system for payments.
+
+John
+Poynton
+
+GreenScapes have just re-turfed all my garden and generally tidied. I was so pleased with my finished garden! It looks totally transformed! Simon and his colleague have done a fantastic job!
+
+Andrew
+Bramhall
+
+Service cards and images
+
+public/garden-maintenance.webp
+public/hedge-tree-pruning.webp
+public/landscaping.webp
+public/planting-and-plant-care.webp
+public/power-washing.webp
+public/tree-surgery.webp
+public/turfing.webp
+
+Blogs
+
+public/blog-deadhead-astible.webp
+public/blog-domestic-garden-maintenance.webp
+public/blog-winter-garden-maintenance.webp
+
+Home hero bg
+public/hero-bg.jpeg
+
+Home about section image
+public/home-nicely-manicured-garden.webp
+
+In footer:
+
+Website design and Google Ads Management by Bunker Digital with link to https://www.bunkerdigital.co.uk
+
+Footer facebook image
+public/facebook-logo.webp
+
+Footer payment cards
+public/payment-options.svg
+
+Include linked business logos in footer
+public/ea-waste-carrier.webp
+public/greenscapes-commercial-logo.webp
+public/greenscapes-powerwashing.webp
