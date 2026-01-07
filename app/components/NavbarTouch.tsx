@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { Squash as Hamburger } from "hamburger-react";
+import Button from "./ui/Button";
 
 export default function NavbarTouch() {
   const [isOpen, setIsOpen] = useState(false);
@@ -51,7 +52,7 @@ export default function NavbarTouch() {
             Garden Maintenance
           </Link>
           <Link
-            href="/artificial-lawn-specialists"
+            href="/artificial-grass"
             className="block text-white hover:text-[#fffcf4] transition-colors py-2"
             onClick={() => setIsOpen(false)}
           >
@@ -64,13 +65,15 @@ export default function NavbarTouch() {
           >
             Landscaping
           </Link>
-          <Link
+          <Button
+            asLink
             href="#contact"
-            className="block bg-white text-[#339935] px-6 py-2 rounded-full font-semibold hover:bg-[#fffcf4] transition-colors text-center"
+            fullWidth
+            className="block text-center"
             onClick={() => setIsOpen(false)}
           >
             Contact Us
-          </Link>
+          </Button>
         </div>
       )}
     </nav>

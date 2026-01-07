@@ -41,7 +41,7 @@ export default function About() {
               <div className="bg-gray-100 p-4 rounded-lg">
                 <Star className="w-8 h-8 mb-2 text-[#339935]" />
                 <h3 className="font-semibold text-gray-900 mb-2">
-                  Fulfill Your Dream
+                  Fulfil Your Dream
                 </h3>
                 <p className="text-sm text-gray-600">
                   Transform your garden into your ideal outdoor space

@@ -9,47 +9,68 @@ const services = [
       "At Greenscapes, our expertise spans a range of garden care essentials. From meticulous lawn maintenance to intricate plant care, our team ensures your garden remains vibrant and healthy throughout the year. Trust in our seasoned professionals to uphold the beauty and vitality of your outdoor sanctuary.",
     link: "/garden-maintenance",
   },
-  // {
-  //   title: "Tree Surgery",
-  //   image: "/tree-surgery.webp",
-  //   description:
-  //     "At Greenscapes, we have certified tree surgeons who offer specialized services to maintain the health and aesthetics of your trees. From tree assessment, pruning, to safe tree removal, we provide a comprehensive range of tree surgery services. Ensure the safety and beauty of your property with our expert tree care.",
-  //   link: "/tree-surgeon-bramhall",
-  // },
+  {
+    title: "Garden Landscaping",
+    image: "/landscaping.webp",
+    description:
+      "With Greenscapes, discover the art of curated outdoor aesthetics. Our team specialises in soft landscaping, blending plant choices with design finesse. Whether crafting serene spaces or dynamic gardens, we tailor each project to resonate with your vision.",
+    link: "/landscaping",
+  },
   {
     title: "Turfing",
     image: "/turfing.webp",
     description:
       "Greenscapes takes pride in revitalizing lawns across Stockport and Cheshire. Whether it's laying premium Cheshire turf or re-seeding specific areas, our team provides immediate, transformative results. Enhance the appeal of your outdoors with our expert lawn solutions.",
-    link: "/services",
+    link: "/turfing",
   },
   {
     title: "Power Washing",
     image: "/power-washing.webp",
     description:
       "Greenscapes elevates the cleanliness and allure of your outdoor areas. Harnessing advanced power washing techniques, we rid surfaces of stubborn stains and accumulated grime. Trust in our expertise to rejuvenate your spaces, giving them a renewed gleam.",
-    link: "/services",
+    link: "/power-washing",
   },
   {
-    title: "Landscaping",
-    image: "/landscaping.webp",
-    description:
-      "With Greenscapes, discover the art of curated outdoor aesthetics. Our team specializes in soft landscaping, blending plant choices with design finesse. Whether crafting serene spaces or dynamic gardens, we tailor each project to resonate with your vision.",
-    link: "/landscaping",
-  },
-  {
-    title: "Planting & Plant Care",
-    image: "/planting-and-plant-care.webp",
-    description:
-      "At Greenscapes, we champion the joy plants bring to gardens. Offering tailored planting services, we either provide or nurture your chosen plants. Our experts advise on selections, ensuring every plant thrives in its new home, enriching your garden experience.",
-    link: "/services",
-  },
-  {
-    title: "Hedge & Tree Pruning",
+    title: "Hedge Services",
     image: "/hedge-tree-pruning.webp",
     description:
-      "With Greenscapes, your hedges and trees receive unparalleled care. From precise trimming to expert pruning, we manage all tree types. Whether you aim for aesthetic appeal or safety, count on us to achieve the ideal balance for your greenery.",
-    link: "/services",
+      "With Greenscapes, your hedges receive unparalleled care. From precise trimming to expert pruning, we manage all hedge types. Whether you aim for aesthetic appeal or safety, count on us to achieve the ideal balance for your greenery.",
+    link: "/hedge-planting-maintenance",
+  },
+  {
+    title: "Garden Waste Removal",
+    image: "/garden-maintenance.webp",
+    description:
+      "Keep your garden clean and tidy with our professional waste removal service. We efficiently clear away garden debris, cuttings, and waste, leaving your outdoor space pristine. Our team ensures all waste is disposed of responsibly and in accordance with environmental regulations.",
+    link: "/garden-waste-removal",
+  },
+  {
+    title: "Weed Control",
+    image: "/planting-and-plant-care.webp",
+    description:
+      "Effective weed control is essential for maintaining a healthy garden. Our expert team uses proven methods to eliminate weeds while protecting your plants. We offer both regular maintenance and one-off treatments to keep your garden weed-free year-round.",
+    link: "/weed-control",
+  },
+  {
+    title: "Garden Clearance",
+    image: "/home-nicely-manicured-garden.webp",
+    description:
+      "Transform overgrown or neglected gardens with our comprehensive clearance service. We handle everything from removing unwanted vegetation to clearing debris, preparing your space for a fresh start. Let us help you reclaim your outdoor space.",
+    link: "/garden-clearance",
+  },
+  {
+    title: "Grass Cutting & Lawn Care",
+    image: "/turfing.webp",
+    description:
+      "Maintain a pristine lawn with our regular grass cutting and lawn care service. From weekly mowing to seasonal treatments, we ensure your lawn stays healthy, green, and perfectly manicured throughout the year. Professional lawn care tailored to your needs.",
+    link: "/grass-cutting-lawn-care",
+  },
+  {
+    title: "Artificial Grass - Supply & Fit",
+    image: "/artificial-grass/fake-grass-1.webp",
+    description:
+      "Transform your outdoor space with premium artificial grass solutions. Our expert installation ensures a lush, low-maintenance lawn that looks beautiful year-round. Perfect for busy homeowners who want a pristine garden without the upkeep.",
+    link: "/artificial-grass",
   },
 ];
 

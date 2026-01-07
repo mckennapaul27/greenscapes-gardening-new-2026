@@ -3,6 +3,10 @@ import { Montserrat } from "next/font/google";
 import "./globals.css";
 import NavbarDesktop from "./components/NavbarDesktop";
 import NavbarTouch from "./components/NavbarTouch";
+import Footer from "./components/Footer";
+import { Suspense } from "react";
+import Analytics from "@/app/components/Analytics";
+import WhatsAppButton from "./components/WhatsAppButton";
 
 const montserrat = Montserrat({
   variable: "--font-montserrat",
@@ -12,7 +16,8 @@ const montserrat = Montserrat({
 
 export const metadata: Metadata = {
   title: "Greenscapes Gardening Services Cheshire & South Manchester",
-  description: "Reliable Cheshire gardeners. We're making your outdoor dreams come true. Experienced domestic garden maintenance.",
+  description:
+    "Reliable Cheshire gardeners. We're making your outdoor dreams come true. Experienced domestic garden maintenance.",
 };
 
 export default function RootLayout({
@@ -22,14 +27,17 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${montserrat.variable} antialiased`}
-      >
+      <body className={`${montserrat.variable} antialiased`}>
+        <Suspense>
+          <Analytics />
+        </Suspense>
         <div className="relative">
           <NavbarDesktop />
           <NavbarTouch />
           {children}
+          <Footer />
         </div>
+        <WhatsAppButton />
       </body>
     </html>
   );

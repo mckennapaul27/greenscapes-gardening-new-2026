@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { MapPin, Mail, Phone, Globe } from "lucide-react";
+import Button from "./ui/Button";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -96,12 +97,9 @@ export default function Contact() {
                 className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#339935]"
               />
             </div>
-            <button
-              type="submit"
-              className="w-full bg-[#339935] text-white px-6 py-3 rounded-full font-semibold hover:bg-[#2d7d2f] transition-colors"
-            >
+            <Button type="submit" variant="primary" size="md" fullWidth>
               Send message
-            </button>
+            </Button>
           </form>
           <div className="bg-white p-6 rounded-lg shadow-md">
             <div className="space-y-6">

@@ -30,7 +30,13 @@ const testimonials = [
   },
 ];
 
-export default function CustomerFeedback() {
+interface CustomerFeedbackProps {
+  bgColor?: string;
+}
+
+export default function CustomerFeedback({
+  bgColor = "bg-white",
+}: CustomerFeedbackProps) {
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true, align: "start" });
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [scrollSnaps, setScrollSnaps] = useState<number[]>([]);
@@ -53,7 +59,7 @@ export default function CustomerFeedback() {
   }, [emblaApi, onSelect]);
 
   return (
-    <section className="bg-white py-16 md:py-24">
+    <section className={`${bgColor} py-16 md:py-24`}>
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <p className="text-[#339935] text-sm font-semibold uppercase tracking-wide mb-2">
@@ -68,7 +74,7 @@ export default function CustomerFeedback() {
             say about our services.
           </p>
         </div>
-        <div className="overflow-hidden" ref={emblaRef}>
+        <div className="overflow-hidden pb-8" ref={emblaRef}>
           <div className="flex gap-6">
             {testimonials.map((testimonial, index) => (
               <div
@@ -92,7 +98,7 @@ export default function CustomerFeedback() {
             ))}
           </div>
         </div>
-        <div className="flex justify-center gap-2 mt-6">
+        <div className="flex justify-center gap-2 mt-2">
           {scrollSnaps.map((_, index) => (
             <button
               key={index}

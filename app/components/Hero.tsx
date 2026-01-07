@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
+import Button from "./ui/Button";
 
 export default function Hero() {
   return (
@@ -12,7 +12,7 @@ export default function Hero() {
           className="object-cover"
           priority
         />
-        <div className="absolute inset-0 bg-black/60"></div>
+        <div className="absolute inset-0 bg-black/70"></div>
       </div>
       <div className="relative z-10 px-4 max-w-6xl mx-auto text-white">
         <h1 className="text-4xl lg:text-5xl  font-bold mb-6 leading-tight">
@@ -24,12 +24,15 @@ export default function Hero() {
           Reliable Cheshire gardeners. We&apos;re making your outdoor dreams
           come true. Experienced domestic garden maintenance.
         </p>
-        <Link
+        <Button
+          asLink
           href="#contact"
-          className="inline-block bg-[#339935] hover:bg-[#2d7d2f] text-white px-8 py-4 rounded-full font-semibold text-lg transition-colors"
+          variant="primary"
+          size="lg"
+          className="inline-block"
         >
           Contact Us Today
-        </Link>
+        </Button>
       </div>
       <div className="absolute bottom-0 left-0 right-0 bg-[#339935] text-white py-3 text-center z-10">
         <p className="text-sm md:text-base">

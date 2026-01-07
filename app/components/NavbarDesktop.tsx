@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import Button from "./ui/Button";
 
 export default function NavbarDesktop() {
   return (
@@ -33,7 +34,7 @@ export default function NavbarDesktop() {
           Garden Maintenance
         </Link>
         <Link
-          href="/artificial-lawn-specialists"
+          href="/artificial-grass"
           className="text-white hover:text-[#339935] font-semibold transition-colors"
         >
           Artificial Grass
@@ -44,12 +45,9 @@ export default function NavbarDesktop() {
         >
           Landscaping
         </Link>
-        <Link
-          href="#contact"
-          className="bg-white text-[#339935] px-6 py-2 rounded-full font-semibold hover:bg-[#fffcf4] transition-colors"
-        >
+        <Button asLink href="#contact" size="md">
           Contact Us
-        </Link>
+        </Button>
       </div>
     </nav>
   );
