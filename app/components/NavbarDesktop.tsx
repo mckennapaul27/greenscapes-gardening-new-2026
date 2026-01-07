@@ -45,7 +45,7 @@ export default function NavbarDesktop() {
         >
           Landscaping
         </Link>
-        <Button asLink href="#contact" size="md">
+        <Button asLink href="/contact" size="md">
           Contact Us
         </Button>
       </div>

@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { MapPin, Mail, Phone, Globe, MessageCircle } from "lucide-react";
-import Button from "./ui/Button";
+import Button from "../ui/Button";
 import toast from "react-hot-toast";
 
 declare global {
@@ -11,7 +11,11 @@ declare global {
   }
 }
 
-export default function Contact() {
+export default function Contact({
+  bgColor = "bg-[#f9f9f9]",
+}: {
+  bgColor: string;
+}) {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -80,7 +84,7 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="bg-[#f9f9f9] py-16 md:py-24">
+    <section id="contact" className={`${bgColor} py-16 md:py-24`}>
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-2xl md:text-3xl text-center font-semibold text-gray-900 mb-6">

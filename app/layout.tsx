@@ -2,11 +2,12 @@ import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import "./globals.css";
 import NavbarDesktop from "./components/NavbarDesktop";
-import NavbarTouch from "./components/NavbarTouch";
+import NavbarTouchWrapper from "./components/navbar-touch/wrapper";
 import Footer from "./components/Footer";
 import { Suspense } from "react";
 import Analytics from "@/app/components/Analytics";
 import WhatsAppButton from "./components/WhatsAppButton";
+import { Toaster } from "react-hot-toast";
 
 const montserrat = Montserrat({
   variable: "--font-montserrat",
@@ -33,11 +34,12 @@ export default function RootLayout({
         </Suspense>
         <div className="relative">
           <NavbarDesktop />
-          <NavbarTouch />
+          <NavbarTouchWrapper />
           {children}
           <Footer />
         </div>
         <WhatsAppButton />
+        <Toaster position="top-right" />
       </body>
     </html>
   );

@@ -1,12 +1,41 @@
+import type { Metadata } from "next";
 import Hero from "./components/Hero";
-import ServiceAreas from "./components/ServiceAreas";
+import ServiceAreasWrapper from "./components/service-areas/wrapper";
 import About from "./components/About";
 import Services from "./components/Services";
-import LatestNews from "./components/LatestNews";
-import Contact from "./components/Contact";
-import CustomerFeedback from "./components/CustomerFeedback";
-import FAQs from "./components/FAQs";
-import Footer from "./components/Footer";
+// import LatestNews from "./components/LatestNews";
+import ContactWrapper from "./components/contact/wrapper";
+import CustomerFeedbackWrapper from "./components/customer-feedback/wrapper";
+import FAQWrapper from "./components/faq/wrapper";
+
+export const metadata: Metadata = {
+  title: "Greenscapes Gardening Services | Cheshire & South Manchester",
+  description:
+    "Professional garden maintenance, landscaping, and gardening services in Cheshire & South Manchester. Expert gardeners serving Stockport, Bramhall, Poynton, Hazel Grove, and surrounding areas.",
+  keywords: [
+    "garden maintenance",
+    "landscaping",
+    "gardening services",
+    "Cheshire",
+    "South Manchester",
+    "Stockport",
+    "Bramhall",
+    "Poynton",
+    "Hazel Grove",
+    "gardeners",
+    "lawn care",
+    "hedge trimming",
+    "turfing",
+    "power washing",
+  ],
+  openGraph: {
+    title: "Greenscapes Gardening Services | Cheshire & South Manchester",
+    description:
+      "Professional garden maintenance, landscaping, and gardening services in Cheshire & South Manchester.",
+    type: "website",
+    locale: "en_GB",
+  },
+};
 
 export default function Home() {
   const faqs = [
@@ -62,16 +91,78 @@ export default function Home() {
     },
   ];
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    name: "Greenscapes Gardening Services",
+    description:
+      "Professional garden maintenance, landscaping, and gardening services in Cheshire & South Manchester",
+    url: "https://www.greenscapes-gardening.co.uk",
+    telephone: "01614250035",
+    email: "simon@greenscapes-gardening.co.uk",
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "19 Vine Street",
+      addressLocality: "Hazel Grove",
+      addressRegion: "Stockport",
+      postalCode: "SK7 4JS",
+      addressCountry: "GB",
+    },
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: "53.3833",
+      longitude: "-2.1167",
+    },
+    areaServed: [
+      {
+        "@type": "City",
+        name: "Stockport",
+      },
+      {
+        "@type": "City",
+        name: "Bramhall",
+      },
+      {
+        "@type": "City",
+        name: "Poynton",
+      },
+      {
+        "@type": "City",
+        name: "Hazel Grove",
+      },
+      {
+        "@type": "City",
+        name: "Marple",
+      },
+      {
+        "@type": "City",
+        name: "Wilmslow",
+      },
+      {
+        "@type": "City",
+        name: "Woodford",
+      },
+    ],
+    priceRange: "$$",
+    image: "https://www.greenscapes-gardening.co.uk/greenscapes-logo.webp",
+    sameAs: ["https://www.greenscapes-gardening.co.uk"],
+  };
+
   return (
     <main>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Hero />
-      <ServiceAreas />
+      <ServiceAreasWrapper />
       <About />
       <Services />
-      <LatestNews />
-      <Contact />
-      <CustomerFeedback />
-      <FAQs faqs={faqs} />
+      {/* <LatestNews /> */}
+      <CustomerFeedbackWrapper />
+      <ContactWrapper />
+
+      <FAQWrapper faqs={faqs} />
     </main>
   );
 }

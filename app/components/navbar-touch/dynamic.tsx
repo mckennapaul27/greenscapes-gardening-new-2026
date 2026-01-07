@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { Squash as Hamburger } from "hamburger-react";
-import Button from "./ui/Button";
+import Button from "../ui/Button";
 
 export default function NavbarTouch() {
   const [isOpen, setIsOpen] = useState(false);
@@ -67,7 +67,7 @@ export default function NavbarTouch() {
           </Link>
           <Button
             asLink
-            href="/contact"
+            href="#contact"
             fullWidth
             className="block text-center"
             onClick={() => setIsOpen(false)}
@@ -79,3 +79,4 @@ export default function NavbarTouch() {
     </nav>
   );
 }
+

@@ -1,86 +1,12 @@
-"use client";
-
-import { useState } from "react";
 import { MapPin, Mail, Phone, Globe, MessageCircle } from "lucide-react";
-import Button from "./ui/Button";
-import toast from "react-hot-toast";
 
-declare global {
-  interface Window {
-    dataLayer?: Array<Record<string, any>>;
-  }
-}
-
-export default function Contact() {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    phone: "",
-    subject: "",
-    message: "",
-  });
-  const [isSubmitting, setIsSubmitting] = useState(false);
-
-  const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
-  ) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value,
-    });
-  };
-
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setIsSubmitting(true);
-
-    try {
-      const response = await fetch("/api/contact", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData),
-      });
-
-      const data = await response.json();
-
-      if (!response.ok) {
-        throw new Error(data.error || "Failed to send message");
-      }
-
-      // Send GTM event
-      if (typeof window !== "undefined" && window.dataLayer) {
-        window.dataLayer.push({
-          event: "formSubmission",
-        });
-      }
-
-      // Show success toast
-      toast.success("Message sent successfully! We'll get back to you soon.");
-
-      // Reset form
-      setFormData({
-        name: "",
-        email: "",
-        phone: "",
-        subject: "",
-        message: "",
-      });
-    } catch (error) {
-      console.error("Form submission error:", error);
-      toast.error(
-        error instanceof Error
-          ? error.message
-          : "Failed to send message. Please try again."
-      );
-    } finally {
-      setIsSubmitting(false);
-    }
-  };
-
+export default function Contact({
+  bgColor = "bg-[#f9f9f9]",
+}: {
+  bgColor?: string;
+}) {
   return (
-    <section id="contact" className="bg-[#f9f9f9] py-16 md:py-24">
+    <section id="contact" className={`${bgColor} py-16 md:py-24`}>
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-2xl md:text-3xl text-center font-semibold text-gray-900 mb-6">
@@ -92,14 +18,12 @@ export default function Contact() {
           </p>
         </div>
         <div className="grid md:grid-cols-2 gap-8 lg:gap-12 max-w-5xl mx-auto">
-          <form onSubmit={handleSubmit} className="space-y-4">
+          <form className="space-y-4">
             <div>
               <input
                 type="text"
                 name="name"
                 placeholder="Name"
-                value={formData.name}
-                onChange={handleChange}
                 required
                 className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#339935] bg-white"
               />
@@ -109,8 +33,6 @@ export default function Contact() {
                 type="email"
                 name="email"
                 placeholder="Email"
-                value={formData.email}
-                onChange={handleChange}
                 required
                 className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#339935] bg-white"
               />
@@ -120,8 +42,6 @@ export default function Contact() {
                 type="text"
                 name="subject"
                 placeholder="Subject"
-                value={formData.subject}
-                onChange={handleChange}
                 required
                 className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#339935] bg-white"
               />
@@ -131,8 +51,6 @@ export default function Contact() {
                 type="tel"
                 name="phone"
                 placeholder="Phone number"
-                value={formData.phone}
-                onChange={handleChange}
                 required
                 className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#339935] bg-white"
               />
@@ -141,22 +59,17 @@ export default function Contact() {
               <textarea
                 name="message"
                 placeholder="Message"
-                value={formData.message}
-                onChange={handleChange}
                 required
                 rows={6}
                 className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#339935] bg-white"
               />
             </div>
-            <Button
+            <button
               type="submit"
-              variant="primary"
-              size="md"
-              fullWidth
-              disabled={isSubmitting}
+              className="w-full bg-[#339935] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#2d7d2f] transition-colors"
             >
-              {isSubmitting ? "Sending..." : "Send message"}
-            </Button>
+              Send message
+            </button>
           </form>
           <div className="bg-white p-6 rounded-lg shadow-md">
             <div className="space-y-6">

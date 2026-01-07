@@ -1,7 +1,8 @@
 import Link from "next/link";
 import { ButtonHTMLAttributes, ReactNode, MouseEventHandler } from "react";
 
-interface ButtonProps extends Omit<ButtonHTMLAttributes<HTMLButtonElement>, "onClick"> {
+interface ButtonProps
+  extends Omit<ButtonHTMLAttributes<HTMLButtonElement>, "onClick"> {
   children: ReactNode;
   variant?: "primary" | "secondary" | "outline";
   size?: "sm" | "md" | "lg";
@@ -23,12 +24,16 @@ export default function Button({
   onClick,
   ...props
 }: ButtonProps) {
-  const baseStyles = "rounded-full font-semibold transition-colors";
-  
+  const baseStyles =
+    "rounded-full font-semibold transition-colors cursor-pointer";
+
   const variantStyles = {
-    primary: "bg-[#339935] text-white hover:bg-[#2d7d2f]",
-    secondary: "bg-white text-[#339935] hover:bg-[#fffcf4]",
-    outline: "border border-gray-300 text-gray-900 hover:bg-gray-50",
+    primary:
+      "bg-[#339935] text-white hover:bg-[#2d7d2f] disabled:bg-gray-400 disabled:cursor-not-allowed",
+    secondary:
+      "bg-white text-[#339935] hover:bg-[#fffcf4] disabled:bg-gray-200 disabled:cursor-not-allowed",
+    outline:
+      "border border-gray-300 text-gray-900 hover:bg-gray-50 disabled:border-gray-200 disabled:text-gray-400 disabled:cursor-not-allowed",
   };
 
   const sizeStyles = {
@@ -39,7 +44,8 @@ export default function Button({
 
   const widthStyle = fullWidth ? "w-full" : "";
 
-  const combinedClassName = `${baseStyles} ${variantStyles[variant]} ${sizeStyles[size]} ${widthStyle} ${className}`.trim();
+  const combinedClassName =
+    `${baseStyles} ${variantStyles[variant]} ${sizeStyles[size]} ${widthStyle} ${className}`.trim();
 
   if (asLink && href) {
     return (
@@ -55,4 +61,3 @@ export default function Button({
     </button>
   );
 }
-
