@@ -1,0 +1,200 @@
+[
+  {
+    "type": "location",
+    "location": "Wilmslow",
+    "url": "https://www.greenscapes-gardening.co.uk/wilmslow/garden-services",
+    "adGroupName": "Location - Wilmslow",
+    "keywords": [
+      "garden clearance wilmslow",
+      "garden maintenance wilmslow",
+      "local gardeners wilmslow",
+      "gardener in wilmslow",
+      "gardener wilmslow",
+      "gardeners in wilmslow",
+      "gardeners wilmslow",
+      "lawn care wilmslow",
+      "wilmslow gardener",
+      "wilmslow gardeners"
+    ],
+    "pageSummary": "Professional garden maintenance, landscaping, and gardening services in Wilmslow, Cheshire. Expert gardeners serving Wilmslow residents and businesses."
+  },
+  {
+    "type": "location",
+    "location": "Woodford",
+    "url": "https://www.greenscapes-gardening.co.uk/woodford/garden-services",
+    "adGroupName": "Location - Woodford",
+    "keywords": ["garden maintenance woodford", "lawn care woodford"],
+    "pageSummary": "Professional garden maintenance, landscaping, and gardening services in Woodford, Cheshire. Expert gardeners serving Woodford residents and businesses."
+  },
+  {
+    "type": "location",
+    "location": "Hazel Grove",
+    "url": "https://www.greenscapes-gardening.co.uk/hazel-grove/garden-services",
+    "adGroupName": "Location - Hazel Grove",
+    "keywords": [
+      "gardener hazel grove",
+      "gardeners hazel grove",
+      "gardeners in hazel grove"
+    ],
+    "pageSummary": "Professional garden maintenance, landscaping, and gardening services in Hazel Grove, Stockport. Expert gardeners serving Hazel Grove residents and businesses."
+  },
+  {
+    "type": "location",
+    "location": "Marple",
+    "url": "https://www.greenscapes-gardening.co.uk/marple/garden-services",
+    "adGroupName": "Location - Marple",
+    "keywords": ["lawn care marple"],
+    "pageSummary": "Professional garden maintenance, landscaping, and gardening services in Marple, Stockport. Expert gardeners serving Marple residents and businesses."
+  },
+  {
+    "type": "location",
+    "location": "Stockport",
+    "url": "https://www.greenscapes-gardening.co.uk/stockport/garden-services",
+    "adGroupName": "Location - Stockport",
+    "keywords": [
+      "garden clearance stockport",
+      "garden maintenance in stockport",
+      "garden maintenance stockport",
+      "garden services in stockport",
+      "garden services stockport",
+      "local gardeners stockport",
+      "stockport garden maintenance",
+      "stockport garden services",
+      "gardener in stockport",
+      "gardener stockport",
+      "gardeners in stockport",
+      "gardeners stockport",
+      "lawn care stockport",
+      "stockport gardener",
+      "stockport gardeners",
+      "stockport lawn care"
+    ],
+    "pageSummary": "Professional garden maintenance, landscaping, and gardening services in Stockport. Expert gardeners serving Stockport residents and businesses with quality garden care."
+  },
+  {
+    "type": "service",
+    "url": "https://www.greenscapes-gardening.co.uk/power-washing",
+    "adGroupName": "Service - Jet Washing",
+    "service": "Power Washing",
+    "keywords": [
+      "jet washing services",
+      "jet washing services near me",
+      "power washing services",
+      "power washing services near me"
+    ],
+    "pageSummary": "Professional power washing and pressure washing services in Cheshire & South Manchester. Clean patios, driveways, decking, and outdoor surfaces. Expert cleaning services to rejuvenate your outdoor spaces."
+  },
+  {
+    "type": "service",
+    "url": "https://www.greenscapes-gardening.co.uk/grass-cutting-lawn-care",
+    "adGroupName": "Service - Grass Cutting & Lawn Care",
+    "service": "Grass Cutting & Lawn Care",
+    "keywords": [
+      "find lawn care near me",
+      "grass cutting near me",
+      "grass cutting service",
+      "grass cutting services near me",
+      "grass lawn maintenance",
+      "lawn aeration service",
+      "lawn and care services",
+      "lawn care companies near me",
+      "lawn care in my area",
+      "lawn care service nearby",
+      "lawn contractors",
+      "lawn edging service",
+      "lawn maintenance service",
+      "lawn mow near me",
+      "lawn mowing service",
+      "lawn mowing services",
+      "local lawn care companies",
+      "nearby lawn care"
+    ],
+    "pageSummary": "Professional grass cutting and lawn care services in Cheshire & South Manchester. Regular mowing, seasonal treatments, and expert lawn maintenance. Keep your lawn healthy and perfectly manicured year-round."
+  },
+  {
+    "type": "service",
+    "url": "https://www.greenscapes-gardening.co.uk/landscaping",
+    "adGroupName": "Service - Garden Landscaping",
+    "service": "Garden Landscaping",
+    "keywords": ["garden landscaping service", "garden landscaping services"],
+    "pageSummary": "Expert garden landscaping and soft landscaping services in Cheshire & South Manchester. Professional landscape design, planting schemes, and garden transformation services. Let us bring your landscaping vision to life."
+  },
+  {
+    "type": "service",
+    "url": "https://www.greenscapes-gardening.co.uk/turfing",
+    "adGroupName": "Service - Turfing",
+    "service": "Turfing",
+    "keywords": [
+      "grass turf laying",
+      "grass turfing",
+      "professional turfing",
+      "turf laying service",
+      "turf laying services",
+      "turfing"
+    ],
+    "pageSummary": "Professional turfing and lawn installation services in Cheshire & South Manchester. Expert turf laying for new lawns and lawn renovation. Quality turf installation for a perfect, lush lawn."
+  },
+  {
+    "type": "service",
+    "url": "https://www.greenscapes-gardening.co.uk/hedge-planting-maintenance",
+    "adGroupName": "Service - Hedge Services",
+    "service": "Hedge Services",
+    "keywords": ["hedge planting service", "hedge trimming service"],
+    "pageSummary": "Professional hedge trimming, pruning, and maintenance services in Cheshire & South Manchester. Expert hedge care for all hedge types. Keep your hedges looking perfect year-round with our professional hedge services."
+  },
+  {
+    "type": "service",
+    "url": "https://www.greenscapes-gardening.co.uk/garden-waste-removal",
+    "adGroupName": "Service - Garden Waste Removal",
+    "service": "Garden Waste Removal",
+    "keywords": [
+      "garden waste disposal",
+      "leaf removal service",
+      "yard trash pickup",
+      "yard waste removal"
+    ],
+    "pageSummary": "Professional garden waste removal services in Cheshire & South Manchester. Responsible disposal of garden waste, leaves, and yard debris. We're registered waste carriers ensuring all waste is properly disposed of or recycled."
+  },
+  {
+    "type": "service",
+    "url": "https://www.greenscapes-gardening.co.uk/weed-control",
+    "adGroupName": "Service - Weed Control",
+    "service": "Weed Control",
+    "keywords": ["weed control service", "weed control services"],
+    "pageSummary": "Professional weed control services in Cheshire & South Manchester. Effective weed management for lawns, borders, and patios. Keep your garden weed-free with our expert weed control treatments."
+  },
+  {
+    "type": "service",
+    "url": "https://www.greenscapes-gardening.co.uk/garden-maintenance",
+    "adGroupName": "Service - Garden Maintenance",
+    "service": "Garden Maintenance",
+    "keywords": [
+      "find a gardener local",
+      "find a local gardener",
+      "garden company",
+      "garden maintenance",
+      "garden maintenance company",
+      "garden maintenance services",
+      "garden services",
+      "gardening company",
+      "gardening service",
+      "local garden maintenance",
+      "local gardeners"
+    ],
+    "pageSummary": "Professional garden maintenance services. We offer regular maintenance schedules tailored to your needs, whether that's weekly, fortnightly, or monthly visits. Our services include lawn mowing, edging, weeding, pruning of shrubs and hedges, deadheading flowers, general tidying, and seasonal tasks like leaf clearing in autumn."
+  },
+  {
+    "type": "service",
+    "url": "https://www.greenscapes-gardening.co.uk/garden-clearance",
+    "adGroupName": "Service - Garden Clearance",
+    "service": "Garden Clearance",
+    "keywords": [
+      "garden clean up services",
+      "garden clearance",
+      "garden clearance service",
+      "garden tidy up service",
+      "garden tidy ups"
+    ],
+    "pageSummary": "Professional garden clearance services in Cheshire & South Manchester. Complete garden clearance, overgrown garden clearance, and garden tidy-up services. Transform overgrown or neglected gardens into clean, usable spaces."
+  }
+]
