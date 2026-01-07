@@ -72,12 +72,11 @@ export default function CustomerFeedback({
             ))}
           </div>
         </div>
-        <div className="flex justify-center gap-2 mt-2">
+        <div className="flex justify-center gap-2 mt-2" aria-hidden="true">
           {testimonials.map((_, index) => (
             <div
               key={index}
               className="w-2 h-2 rounded-full bg-gray-300"
-              aria-label={`Slide ${index + 1}`}
             />
           ))}
         </div>

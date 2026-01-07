@@ -23,6 +23,7 @@ export default function NavbarTouch() {
         <div
           className="hamburger-react"
           aria-expanded="false"
+          aria-label="Toggle navigation menu"
           role="button"
           tabIndex={0}
           style={{
